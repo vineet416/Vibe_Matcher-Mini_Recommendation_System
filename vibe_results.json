@@ -1,0 +1,77 @@
+[
+  {
+    "query": "energetic urban chic",
+    "topk": [
+      {
+        "name": "Urban Bomber Jacket",
+        "score": 0.391121363472141
+      },
+      {
+        "name": "Athleisure Hoodie",
+        "score": 0.10490889703382282
+      },
+      {
+        "name": "Boho Dress",
+        "score": 0.0
+      }
+    ],
+    "top_score": 0.391121363472141,
+    "eval": "no-match",
+    "fallback": {
+      "reason": "low_similarity",
+      "top_score": 0.391121363472141,
+      "prompt": "Your vibe query 'energetic urban chic' returned weak matches (top score 0.391). Consider clarifying the vibe or provide 2\u20133 keywords, e.g., 'casual cozy', 'urban streetwear'."
+    },
+    "latency_s": 2.88271949999762
+  },
+  {
+    "query": "cozy festival wear",
+    "topk": [
+      {
+        "name": "Cozy Knit Sweater",
+        "score": 0.13245323570650439
+      },
+      {
+        "name": "Elegant Midi Skirt",
+        "score": 0.12885716821808202
+      },
+      {
+        "name": "Boho Dress",
+        "score": 0.12366070200443748
+      }
+    ],
+    "top_score": 0.13245323570650439,
+    "eval": "no-match",
+    "fallback": {
+      "reason": "low_similarity",
+      "top_score": 0.13245323570650439,
+      "prompt": "Your vibe query 'cozy festival wear' returned weak matches (top score 0.132). Consider clarifying the vibe or provide 2\u20133 keywords, e.g., 'casual cozy', 'urban streetwear'."
+    },
+    "latency_s": 2.9062085000041407
+  },
+  {
+    "query": "minimal office wear",
+    "topk": [
+      {
+        "name": "Minimal Blazer",
+        "score": 0.2695381816691369
+      },
+      {
+        "name": "Elegant Midi Skirt",
+        "score": 0.12885716821808202
+      },
+      {
+        "name": "Boho Dress",
+        "score": 0.0
+      }
+    ],
+    "top_score": 0.2695381816691369,
+    "eval": "no-match",
+    "fallback": {
+      "reason": "low_similarity",
+      "top_score": 0.2695381816691369,
+      "prompt": "Your vibe query 'minimal office wear' returned weak matches (top score 0.270). Consider clarifying the vibe or provide 2\u20133 keywords, e.g., 'casual cozy', 'urban streetwear'."
+    },
+    "latency_s": 3.031906699994579
+  }
+]
